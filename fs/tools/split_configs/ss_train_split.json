@@ -1,0 +1,28 @@
+{
+  "nproc": 1,
+  "img_dirs": [
+    "datasets/DOTA_v1/trainA/split/"
+  ],
+  "ann_dirs": [
+    "datasets/DOTA_v1/trainA/split/"
+  ],
+  "sizes": [
+    1024
+  ],
+  "gaps": [
+    200
+  ],
+  "rates": [
+    1.0
+  ],
+  "img_rate_thr": 0.6,
+  "iof_thr": 0.7,
+  "no_padding": false,
+  "padding_value": [
+    104,
+    116,
+    124
+  ],
+  "save_dir": "datasets/DOTA_v1/train_ss/split/",
+  "save_ext": ".png"
+}

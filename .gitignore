@@ -1,0 +1,34 @@
+# Compiled python modules.
+*.pyc
+
+# Byte-compiled
+_pycache__/
+.cache/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+.eggs/
+
+# PyPI distribution artifacts.
+build/
+dist/
+
+# Tests
+.pytest_cache/
+
+# Other
+*.DS_Store
+venv
+/checkpoints
+/output
+/output/
+/embeddings/
+venv
+*.egg-info
+data/*.npy
+/tpu
+/tf-models
+thirdparty
+/tmp_*
+weights
+/datasets
