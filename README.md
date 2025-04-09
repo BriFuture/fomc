@@ -43,6 +43,6 @@ Check [REPRODUCE.md](REPRODUCE.md) for details to reproduce experiments.
 ```
 
 ## 🙏 Acknowledgement
-Our FOMC is based on TFA.
+Our FOMC method is based on [TFA](https://arxiv.org/abs/2003.06957).
 
 We are thankful to [MMRotate](https://github.com/open-mmlab/mmrotate), [MMDetection](https://github.com/open-mmlab/mmdetection) for releasing their models and code as open-source contributions.
