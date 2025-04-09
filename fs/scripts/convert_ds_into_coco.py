@@ -24,7 +24,7 @@ def construct_parser():
     parser.add_argument("--data_type", type=str, default="val")
     return parser
 
-setup_logger(name="fvlm")
+setup_logger(name="gdet")
 
 def convert_voc_into_coco(args=None,
 ):
@@ -209,7 +209,7 @@ def convert_dota_into_coco(
 ):
     """bsf.c 通过读取 VOC 数据集，将其转为 COCO 数据集
     """
-    setup_logger(name="fvlm")
+    setup_logger(name="gdet")
     cfg = Config.fromfile(osp.join(ROOT_PATH, args.config))
 
     load_modules(cfg.dataset, hint=True)

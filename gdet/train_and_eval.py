@@ -63,13 +63,11 @@ def prepare_args_cfg(args=None, local_rank=0):
         log_name = "eval.log"
     if local_rank != 0:
         log_name = f"rank{local_rank}_{log_name}"
-        setup_logger(name='fvlm', output=osp.join(wd, log_name), stdout=False)
         setup_logger(name='gdet', output=osp.join(wd, log_name), stdout=False)
         ### for mmcv repo
         log_name = f"rank{local_rank}_mmcv.log"
         setup_logger(name='mmcv', output=osp.join(wd, "mmcv.log"), stdout=False)
     else:
-        setup_logger(name='fvlm', output=osp.join(wd, log_name))
         setup_logger(name='gdet', output=osp.join(wd, log_name))
         setup_logger(name='mmcv', output=osp.join(wd, "mmcv.log"))
     test_ind = "train" if args.train else "test"
