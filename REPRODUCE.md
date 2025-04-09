@@ -7,7 +7,7 @@ The DOTA dataset contains 15 classes. We select 10 classes as base classes and t
 
 1. Download DOTA dataset into `datasets/DOTA_v1` folder, decompress the zipped files, and rename the train and val folder into `trainA` and `valA`, respectively.
 
-2. Split the imagesets into 1024x1024 crops following [BboxToolkit](https://github.com/jbwang1997/BboxToolkit)
+2. Split the imagesets into 1024x1024 crops following [here](fs/tools/)
 ```bash
 python tools/img_split.py --base-json fs/tools/split_configs/ss_train.json
 python tools/img_split.py --base-json fs/tools/split_configs/ss_val.json
