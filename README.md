@@ -36,7 +36,7 @@ Check [REPRODUCE.md](REPRODUCE.md) for details to reproduce experiments.
 ```bibtex
 @article{zhou2024few,
   title={Few-shot Oriented Object Detection with Memorable Contrastive Learning in Remote Sensing Images},
-  author={Zhou, Jiawei and Li, Wuzhou and Cao, Yi and Cai, Hongtao and Li, Xiang},
+  author={Zhou, Jiawei and Li, Wuzhou and Cao, Yi and Cai, Hongtao and Xia, Guisong and Li, Xiang},
   journal={arXiv preprint arXiv:2403.13375},
   year={2024}
 }
