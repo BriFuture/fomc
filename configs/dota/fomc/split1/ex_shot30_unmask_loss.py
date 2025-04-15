@@ -65,7 +65,7 @@ _odm_head = dict(
             decay_steps=[4000, ],
             decay_rate = 0.3,
             contrast_weight_step=100,
-            contrast_weight = 0.0,
+            contrast_weight = 0.1,
         ),
     ),
     train_cfg = dict(

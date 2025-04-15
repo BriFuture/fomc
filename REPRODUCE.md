@@ -43,6 +43,8 @@ cp checkpoints/dota/fomc/split1/base/val_best_ckpt.pth checkpoints/weights/dota/
 python fs/scripts/ckpt_surgery_softmax.py --src1 checkpoints/weights/dota/fomc/split1/base/val_best_ckpt.pth  --softmax --save-dir checkpoints/weights/dota/fomc/split1/softmax --num-class=15 --method randinit
 ```
 
+We provide the weights trained on the DOTA base categories on Google Drive. Please check [fomc_weights](https://drive.google.com/file/d/1oVdz2TIPbk473W2We4Fxgz37hBy3RVo6/view?usp=sharing). 
+
 5. Identify each object for randomly selecting before finetuning stage. `python fs/scripts/dataset_id_objects/py --dataset=dota --config=configs/dota/ds_dota_origin.py`
 
 6. Select shots and split the images into 1024x1024 crops. It should be noted that the option `--mask_unsel_shots` should be used if instance masking module is applied. Here the `--mask_unsel_shots` option is on for FOMC:
