@@ -1,7 +1,7 @@
 
 <font size='5'>**Few-Shot Oriented Object Detection in Remote Sensing Images via Memorable Contrastive Learning**</font>
 
-Jiawei Zhou, Wuzhou Li, Yi Cao, Hongtao Cai, Xiang Li*
+Jiawei Zhou, Wuzhou Li, Yi Cao, Hongtao Cai, Xia, Guisong, Xiang Li*
 
 <a href='https://github.com/BriFuture/fomc'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2403.13375'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
