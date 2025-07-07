@@ -122,11 +122,23 @@ The training process of DIOR-R is similar to that of DOTA.
 datasets/DIOR-R
 ├── All_Annotations
 ├── Annotations -> All_Annotations/Oriented Bounding Boxes
+    ├── 00001.xml
+    ├── .....
+    └── 10000.xml
 ├── ImageSets
+    ├── Layout
+    ├── Main
+    └── Segmentation
 ├── JPEGImages -> JPEGImages-trainval/
+    ├── 00001.jpg
+    ├── .....
+    └── 10000.jpg
 ├── JPEGImages-test
 ├── JPEGImages-trainval
 └── split
+    ├── mask_seed5_shot5
+    ├── .....
+    └── seed5_shot5
 ```
 
 1. Base train: `python fs/train_and_eval_dior.py configs/dior_r/fomc/split1/ex_base.py --train `
